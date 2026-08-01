@@ -1,31 +1,32 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Add Blog</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<nav class="navbar">
-    <div class="logo">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
         <h2>BlogHub</h2>
-    </div>
+      </div>
 
-    <ul class="nav-links">
+      <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="add-blog.html">Add Blog</a></li>
-    </ul>
-</nav>
-<section class="form-section">
-<h2>Add New Blog</h2>
-<form>
-<input type="text" placeholder="Blog Title">
-<input type="text" placeholder="Author Name">
-<input type="text" placeholder="Category">
-<textarea placeholder="Write your blog here..."></textarea>
-<button type="submit">Publish Blog</button>
-</form>
-</section>
-</body>
+      </ul>
+    </nav>
+    <section class="form-section">
+      <h2>Add New Blog</h2>
+      <form id="blogForm">
+        <input type="text" id="title" placeholder="Blog Title" />
+        <input type="text" id="author" placeholder="Author Name" />
+        <input type="text" id="category" placeholder="Category" />
+        <textarea id="description" placeholder="Write your blog here..."></textarea>
+        <button type="submit">Publish Blog</button>
+      </form>
+    </section>
+    <script src="script.js"></script>
+  </body>
 </html>
